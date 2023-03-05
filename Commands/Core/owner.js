@@ -32,7 +32,6 @@ module.exports = {
 
             ment = [ownerList.map(owner => owner+"@s.whatsapp.net"), mention];
             let textM = `            Dinda Gendut\n\n`;
-
             }
             
             return Miku.sendMessage( 
