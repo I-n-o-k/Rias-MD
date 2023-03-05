@@ -31,24 +31,8 @@ module.exports = {
             let xyz = xy.concat(yz);
 
             ment = [ownerList.map(owner => owner+"@s.whatsapp.net"), mention];
-            let textM = `             🧣  *ᴍᴏᴅꜱ*  🧣\n\n`;
+            let textM = `            Dinda Gendut\n\n`;
 
-            if(ownerList.length == 0){
-              textM = "*ɴᴏ ᴍᴏᴅꜱ ᴀᴅᴅᴇᴅ !*";
-            }
-
-            for (var i = 0; i < ownerList.length; i++) {
-              textM += `\n〽️ @${ownerList[i]}\n`
-            }
-
-            if(modlistString != ""){
-              for (var i = 0; i < modlist.length; i++) {
-                textM += `\n🎀 @${modlist[i].id.split("@")[0]}\n`
-              }
-            } 
-            
-            if(modlistString != "" || ownerList.length != 0){
-               textM += `\n\n📛 *ᴅᴏɴ'ᴛ ꜱᴘᴀᴍ ᴛʜᴇᴍ ᴛᴏ ᴀᴠᴏɪᴅ ʙʟᴏᴄᴋɪɴɢ !*\n\n🎀 ғᴏʀ ᴀɴʏ ʜᴇʟᴘ, ᴛʏᴘᴇ *${prefix}ꜱᴜᴘᴘᴏʀᴛ* ᴀɴᴅ ᴀꜱᴋ ɪɴ ɢʀᴏᴜᴘ.\n\n*💫 ᴛʜᴀɴᴋꜱ ғᴏʀ ᴜꜱɪɴɢ ${botName}. 💫*\n`
             }
             
             return Miku.sendMessage( 
